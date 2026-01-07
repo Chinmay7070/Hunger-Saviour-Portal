@@ -29,8 +29,10 @@
               "src/favicon.ico",
               "src/assets"
             ],
-            "styles": [
-              "src/styles.scss"
+           "styles": [
+             "node_modules/bootstrap/dist/css/bootstrap.min.css",
+             "src/styles.scss",
+               "src/theme.scss"
             ],
             "scripts": []
           },
@@ -92,13 +94,18 @@
               "src/favicon.ico",
               "src/assets"
             ],
-            "styles": [
-              "src/styles.scss"
-            ],
+           "styles": [
+                 "node_modules/bootstrap/dist/css/bootstrap.min.css",
+                 "src/styles.scss",
+                   "src/theme.scss"
+             ],
             "scripts": []
           }
         }
       }
     }
+  },
+  "cli": {
+    "analytics": "49af040d-8229-4bd8-b776-ba5700d68e49"
   }
 }
