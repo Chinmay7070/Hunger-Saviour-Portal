@@ -33,8 +33,8 @@ public class RestaurantEntity {
     @Column(name = "location")
     private String Location;
 
-    @CollectionTable(name = "restaurant_entity_menu_types" ,
-    joinColumns = @JoinColumn(name = "restaurant_id"))
+    @ElementCollection
+    @CollectionTable(name = "restaurant_entity_menu_types" , joinColumns = @JoinColumn(name = "restaurant_id"))
     @Column(name = "menu_type")
     private List<String> menuTypes;
 

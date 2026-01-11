@@ -1,4 +1,5 @@
-
+server:
+  port: 8081
 spring:
   application:
     name: restaurant-service
@@ -9,6 +10,9 @@ spring:
   jpa:
     show-sql: true
     hibernate:
-      ddl-auto: create
+      ddl-auto: update
   flyway:
+    enabled: false
+eureka:
+  client:
     enabled: false

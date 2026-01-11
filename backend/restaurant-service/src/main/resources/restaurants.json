@@ -1,0 +1,192 @@
+[
+  {
+    "restaurantName": "Box-8 Desi Meals",
+    "rating": 4.2,
+    "menuTypes": ["Soups", "Starters", "Biryani", "Curries", "Platter"],
+    "imageUrl": "https://tb-static.uber.com/prod/image-proc/processed_images/f16f68d81f9dd898a9c7f61c4e0e3c5a.jpeg",
+    "location": "Saroor Nagar West",
+    "menus": [
+      {
+        "menuItem": "Sweet Corn Chicken Soup (Serves 1)",
+        "price": 139,
+        "menuType": "Soups",
+        "description": "Savory and satisfying sweet corn chicken soup with tender chicken bits.",
+        "menuImageUrl": "https://hips.hearstapps.com/hmg-prod/images/best-soup-recipes-1-64f0bafc5c95a.jpg"
+      },
+      {
+        "menuItem": "Banjara Kabab",
+        "price": 259,
+        "menuType": "Starters",
+        "description": "Tender and flavorful skewers of marinated meat, grilled to perfection.",
+        "menuImageUrl": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto/v1675865278/banjara_kabab.jpg"
+      }
+    ]
+  },
+
+  {
+    "restaurantName": "Behrouz Biryani",
+    "rating": 4.5,
+    "menuTypes": ["Biryani", "Starters", "Desserts"],
+    "imageUrl": "https://b.zmtcdn.com/data/pictures/7/18649357/7d5a3b0f06d5a7e08c63cfa3f50cbd77.jpg",
+    "location": "Ameerpet",
+    "menus": [
+      {
+        "menuItem": "Royal Chicken Dum Biryani",
+        "price": 399,
+        "menuType": "Biryani",
+        "description": "Slow-cooked basmati rice layered with royal spices and tender chicken.",
+        "menuImageUrl": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto/v1675662432/chicken_dum_biryani.jpg"
+      },
+      {
+        "menuItem": "Gulab Jamun (2 pcs)",
+        "price": 99,
+        "menuType": "Desserts",
+        "description": "Soft milk-solid dumplings soaked in aromatic sugar syrup.",
+        "menuImageUrl": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto/v1675865135/gulab_jamun.jpg"
+      }
+    ]
+  },
+
+  {
+    "restaurantName": "Paradise Biryani",
+    "rating": 4.3,
+    "menuTypes": ["Biryani", "Starters", "Curries"],
+    "imageUrl": "https://b.zmtcdn.com/data/pictures/2/18343712/1a2c1cbbf4f14c2b91c87a0b6b65b7d4.jpg",
+    "location": "Secunderabad",
+    "menus": [
+      {
+        "menuItem": "Hyderabadi Chicken Biryani",
+        "price": 349,
+        "menuType": "Biryani",
+        "description": "Iconic Hyderabadi biryani with rich aroma and traditional spices.",
+        "menuImageUrl": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto/v1675849231/hyderabadi_biryani.jpg"
+      },
+      {
+        "menuItem": "Chicken 65",
+        "price": 289,
+        "menuType": "Starters",
+        "description": "Crispy fried chicken tossed in spicy South Indian masala.",
+        "menuImageUrl": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto/v1675662456/chicken_65.jpg"
+      }
+    ]
+  },
+
+  {
+    "restaurantName": "Mehfil Restaurant",
+    "rating": 4.1,
+    "menuTypes": ["Biryani", "Starters", "Curries"],
+    "imageUrl": "https://b.zmtcdn.com/data/pictures/0/19098420/6a7db45a2d34b3d6c1c0b84b92e5a2e0.jpg",
+    "location": "Nampally",
+    "menus": [
+      {
+        "menuItem": "Special Chicken Biryani",
+        "price": 299,
+        "menuType": "Biryani",
+        "description": "Flavor-packed biryani cooked with secret house spices.",
+        "menuImageUrl": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto/v1675662521/chicken_biryani.jpg"
+      }
+    ]
+  },
+
+  {
+    "restaurantName": "Bawarchi",
+    "rating": 4.4,
+    "menuTypes": ["Biryani", "Starters", "Soups"],
+    "imageUrl": "https://b.zmtcdn.com/data/pictures/6/18347056/5c9d3c1a57d6f04c0b6dbcb29b8d3e1a.jpg",
+    "location": "RTC Cross Road",
+    "menus": [
+      {
+        "menuItem": "Mutton Biryani",
+        "price": 449,
+        "menuType": "Biryani",
+        "description": "Succulent mutton pieces cooked with fragrant basmati rice.",
+        "menuImageUrl": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto/v1675662493/mutton_biryani.jpg"
+      }
+    ]
+  },
+
+  {
+    "restaurantName": "Cream Stone",
+    "rating": 4.6,
+    "menuTypes": ["Desserts", "Ice Cream"],
+    "imageUrl": "https://b.zmtcdn.com/data/pictures/4/18347014/7b44d0a10a9ad5f5cb9d4a4c5a92c3b6.jpg",
+    "location": "Kukatpally",
+    "menus": [
+      {
+        "menuItem": "Chocolate Fantasy",
+        "price": 179,
+        "menuType": "Desserts",
+        "description": "Rich chocolate ice cream mixed on a frozen stone.",
+        "menuImageUrl": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto/v1675865148/chocolate_fantasy.jpg"
+      }
+    ]
+  },
+
+  {
+    "restaurantName": "KFC",
+    "rating": 4.0,
+    "menuTypes": ["Fast Food", "Starters"],
+    "imageUrl": "https://logos-world.net/wp-content/uploads/2020/04/KFC-Logo.png",
+    "location": "LB Nagar",
+    "menus": [
+      {
+        "menuItem": "Hot & Crispy Chicken (4 pcs)",
+        "price": 399,
+        "menuType": "Starters",
+        "description": "Signature crispy fried chicken with bold spices.",
+        "menuImageUrl": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto/v1675662415/hot_crispy_chicken.jpg"
+      }
+    ]
+  },
+
+  {
+    "restaurantName": "Domino's Pizza",
+    "rating": 4.2,
+    "menuTypes": ["Pizza", "Sides"],
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/7/74/Dominos_pizza_logo.svg",
+    "location": "Dilsukhnagar",
+    "menus": [
+      {
+        "menuItem": "Farmhouse Pizza",
+        "price": 299,
+        "menuType": "Pizza",
+        "description": "Loaded with fresh veggies and mozzarella cheese.",
+        "menuImageUrl": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto/v1675865154/farmhouse_pizza.jpg"
+      }
+    ]
+  },
+
+  {
+    "restaurantName": "Burger King",
+    "rating": 4.1,
+    "menuTypes": ["Burgers", "Fast Food"],
+    "imageUrl": "https://logos-world.net/wp-content/uploads/2020/04/Burger-King-Logo.png",
+    "location": "Malakpet",
+    "menus": [
+      {
+        "menuItem": "Whopper Chicken",
+        "price": 199,
+        "menuType": "Burgers",
+        "description": "Flame-grilled chicken patty with fresh veggies.",
+        "menuImageUrl": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto/v1675662448/whopper_chicken.jpg"
+      }
+    ]
+  },
+
+  {
+    "restaurantName": "Subway",
+    "rating": 4.3,
+    "menuTypes": ["Healthy", "Sandwiches"],
+    "imageUrl": "https://logos-world.net/wp-content/uploads/2020/09/Subway-Logo.png",
+    "location": "Begumpet",
+    "menus": [
+      {
+        "menuItem": "Chicken Teriyaki Sub",
+        "price": 259,
+        "menuType": "Sandwiches",
+        "description": "Juicy chicken glazed with teriyaki sauce in freshly baked bread.",
+        "menuImageUrl": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto/v1675865171/chicken_teriyaki.jpg"
+      }
+    ]
+  }
+]

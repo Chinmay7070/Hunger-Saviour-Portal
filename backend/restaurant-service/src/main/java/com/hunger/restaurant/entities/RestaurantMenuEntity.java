@@ -7,7 +7,7 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 
 @Entity
-@Table(name = "restarant_menu")
+@Table(name = "restaurant_menu")
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
@@ -22,15 +22,15 @@ public class RestaurantMenuEntity {
     @Column(name = "item_name")
     private String menuItem;
 
-    @Column(name = "description")
+    @Column(name = "description" , length = 1000)
     private String description;
 
     @Column(name = "menu_image_url")
-    private String menuItemImageurl;
+    private String menuImageUrl;
 
     @Column(name = "menu_type")
     private String menuType;
 
-    @Column(name = "price")
+    @Column(name = "price ")
     private Double price;
 }
