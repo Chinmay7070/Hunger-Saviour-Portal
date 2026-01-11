@@ -1,0 +1,14 @@
+
+spring:
+  application:
+    name: restaurant-service
+  datasource:
+    url: jdbc:mysql://localhost:3306/restaurant-b2?createDatabaseIfNotExist=true
+    username: root
+    password: Chinmay@1234
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: create
+  flyway:
+    enabled: false
