@@ -1,0 +1,41 @@
+@import '../../styles/variables.scss';
+.mat-toolbar{
+
+    background: $secoundary-color !important;
+    
+}
+.spacer{
+    flex: 1 1 auto;
+}
+.logo{
+    mat-icon{
+        color: $primary-color;
+
+    }
+}
+.logoname{
+    color: $primary-color;
+    font-size: larger;
+}
+.nav-links {
+  display: flex;
+  gap: 4rem;
+
+  a {
+    display: flex;
+    align-items: center;
+    gap: 0.4rem;
+    text-decoration: none;
+    color: $tertiary-color;
+
+    &:hover {
+      color: $primary-color;
+      cursor: pointer;
+    }
+
+    &.active-link {
+      color: $primary-color;
+      font-weight: 600;
+    }
+  }
+}
