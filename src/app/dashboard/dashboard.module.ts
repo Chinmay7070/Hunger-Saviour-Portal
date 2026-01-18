@@ -6,6 +6,7 @@ import { DashboardComponent } from './dashboard/dashboard.component';
 import { SharedmoduleModule } from '../sharedmodule/sharedmodule.module';
 import { RestaurantListComponent } from './restaurant-list/restaurant-list.component';
 import { RestaurantComponent } from './restaurant/restaurant.component';
+import { HttpClientModule } from '@angular/common/http';
 
 
 @NgModule({
@@ -17,7 +18,8 @@ import { RestaurantComponent } from './restaurant/restaurant.component';
   imports: [
     CommonModule,
     DashboardRoutingModule,
-    SharedmoduleModule
+    SharedmoduleModule,
+    HttpClientModule
   ]
 })
 export class DashboardModule { }

@@ -1,13 +1,13 @@
 <mat-card class="restaurant-card no-shadow" >
     <div class="card-image-container">
-        <img [src]="restaurant?.imageUrl" alt="" srcset="">
+        <img [src]="restaurant?.imageUrl"  loading="lazy" alt="" srcset="">
     </div>
     <mat-card-content>
         <div class="d-flex flex-column">
             <div class="fw-bold text-truncate">{{restaurant?.restaurantName}}</div>
             <div class="d-flex flex-row fw-bold"><mat-icon class="ratingicon">stars</mat-icon>{{restaurant?.rating}}</div>
             <div class="text-truncate">{{restaurant?.menuTypes}}</div>
-            <div>{{restaurant?.location}}</div>
+            <div class="text-muted" >{{restaurant?.location }}</div>
         </div>
     </mat-card-content>
 </mat-card>
