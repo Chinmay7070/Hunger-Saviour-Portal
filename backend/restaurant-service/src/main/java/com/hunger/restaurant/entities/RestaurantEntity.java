@@ -31,7 +31,7 @@ public class RestaurantEntity {
     private String imageUrl;
 
     @Column(name = "location")
-    private String Location;
+    private String location;
 
     @ElementCollection
     @CollectionTable(name = "restaurant_entity_menu_types" , joinColumns = @JoinColumn(name = "restaurant_id"))

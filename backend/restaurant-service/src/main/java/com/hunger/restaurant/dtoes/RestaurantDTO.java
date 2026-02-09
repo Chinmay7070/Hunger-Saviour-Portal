@@ -16,7 +16,6 @@ import java.util.List;
 @Builder
 public class RestaurantDTO{
 
-
   private Integer restaurantId;
 
   private String restaurantName;
@@ -25,7 +24,7 @@ public class RestaurantDTO{
 
   private String imageUrl;
 
-  private String Location;
+  private String location;
 
   private List<String> menuTypes;
 

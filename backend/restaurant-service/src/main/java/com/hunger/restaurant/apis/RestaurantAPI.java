@@ -5,6 +5,7 @@ import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.hunger.restaurant.Repository.RestaurantRepo;
 import com.hunger.restaurant.Services.IRestaurantService;
+import com.hunger.restaurant.dtoes.RestaurantDTO;
 import com.hunger.restaurant.entities.RestaurantEntity;
 import lombok.RequiredArgsConstructor;
 import org.springframework.core.io.Resource;
@@ -34,13 +35,12 @@ public class RestaurantAPI {
 
     return restaurantService.getRestaurants(pageNumber, pageSize);
   }
+
   @GetMapping
-  public List<RestaurantEntity> getAllRestaurant()
+  public List<RestaurantDTO> getAllRestaurant()
   {
-       return restaurantService.getAllRestaurants();
+       return this.restaurantService.getAllRestaurants();
   }
-
-
 
 
  /* private final ResourceLoader resourceLoader;

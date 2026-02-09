@@ -2,27 +2,17 @@
   {
     "restaurantName": "Box-8 Desi Meals",
     "rating": 4.2,
-    "menuTypes": ["Soups", "Starters", "Biryani", "Curries", "Platter"],
+    "menuTypes": ["Soups", "Starters", "Biryani", "Curries"],
     "imageUrl": "https://tb-static.uber.com/prod/image-proc/processed_images/f16f68d81f9dd898a9c7f61c4e0e3c5a.jpeg",
     "location": "Saroor Nagar West",
     "menus": [
-      {
-        "menuItem": "Sweet Corn Chicken Soup (Serves 1)",
-        "price": 139,
-        "menuType": "Soups",
-        "description": "Savory and satisfying sweet corn chicken soup with tender chicken bits.",
-        "menuImageUrl": "https://hips.hearstapps.com/hmg-prod/images/best-soup-recipes-1-64f0bafc5c95a.jpg"
-      },
-      {
-        "menuItem": "Banjara Kabab",
-        "price": 259,
-        "menuType": "Starters",
-        "description": "Tender and flavorful skewers of marinated meat, grilled to perfection.",
-        "menuImageUrl": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto/v1675865278/banjara_kabab.jpg"
-      }
+      { "menuItem": "Sweet Corn Chicken Soup", "price": 139, "menuType": "Soups", "description": "Savory sweet corn chicken soup with tender chicken bits.", "menuImageUrl": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto/v1675865278/soup.jpg" },
+      { "menuItem": "Banjara Kabab", "price": 259, "menuType": "Starters", "description": "Tender skewers of marinated meat, grilled to perfection.", "menuImageUrl": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto/v1675865278/banjara_kabab.jpg" },
+      { "menuItem": "Paneer Makhani Meal", "price": 229, "menuType": "Curries", "description": "Classic Paneer Makhani served with Paratha and Salad.", "menuImageUrl": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto/v1675865278/meal_box.jpg" },
+      { "menuItem": "Dal Makhani", "price": 189, "menuType": "Curries", "description": "Black lentils slow-cooked overnight with butter and cream.", "menuImageUrl": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto/v1675865278/dal.jpg" },
+      { "menuItem": "Gulab Jamun", "price": 60, "menuType": "Desserts", "description": "Two pieces of soft, syrup-soaked milk dumplings.", "menuImageUrl": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto/v1675865135/gulab_jamun.jpg" }
     ]
   },
-
   {
     "restaurantName": "Behrouz Biryani",
     "rating": 4.5,
@@ -30,163 +20,378 @@
     "imageUrl": "https://b.zmtcdn.com/data/pictures/7/18649357/7d5a3b0f06d5a7e08c63cfa3f50cbd77.jpg",
     "location": "Ameerpet",
     "menus": [
-      {
-        "menuItem": "Royal Chicken Dum Biryani",
-        "price": 399,
-        "menuType": "Biryani",
-        "description": "Slow-cooked basmati rice layered with royal spices and tender chicken.",
-        "menuImageUrl": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto/v1675662432/chicken_dum_biryani.jpg"
-      },
-      {
-        "menuItem": "Gulab Jamun (2 pcs)",
-        "price": 99,
-        "menuType": "Desserts",
-        "description": "Soft milk-solid dumplings soaked in aromatic sugar syrup.",
-        "menuImageUrl": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto/v1675865135/gulab_jamun.jpg"
-      }
+      { "menuItem": "Royal Chicken Biryani", "price": 399, "menuType": "Biryani", "description": "Basmati rice layered with royal spices and tender chicken.", "menuImageUrl": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto/v1675662432/chicken_dum_biryani.jpg" },
+      { "menuItem": "Falafel-E-Khas", "price": 189, "menuType": "Starters", "description": "Crispy chickpea patties served with a spicy dip.", "menuImageUrl": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto/v1675865135/falafel.jpg" },
+      { "menuItem": "Zaikedaar Paneer Biryani", "price": 349, "menuType": "Biryani", "description": "Marinated paneer cubes cooked with aromatic long-grain rice.", "menuImageUrl": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto/v1675662432/paneer_biryani.jpg" },
+      { "menuItem": "Murgh Koobideh", "price": 275, "menuType": "Starters", "description": "Minced chicken kebabs flavored with Persian spices.", "menuImageUrl": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto/v1675865135/kabab.jpg" },
+      { "menuItem": "Chocolate Lava Cake", "price": 99, "menuType": "Desserts", "description": "Gooey chocolate cake with a molten center.", "menuImageUrl": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto/v1675865154/choco_lava.jpg" }
     ]
   },
-
   {
     "restaurantName": "Paradise Biryani",
     "rating": 4.3,
-    "menuTypes": ["Biryani", "Starters", "Curries"],
+    "menuTypes": ["Biryani", "Starters", "Platters"],
     "imageUrl": "https://b.zmtcdn.com/data/pictures/2/18343712/1a2c1cbbf4f14c2b91c87a0b6b65b7d4.jpg",
     "location": "Secunderabad",
     "menus": [
-      {
-        "menuItem": "Hyderabadi Chicken Biryani",
-        "price": 349,
-        "menuType": "Biryani",
-        "description": "Iconic Hyderabadi biryani with rich aroma and traditional spices.",
-        "menuImageUrl": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto/v1675849231/hyderabadi_biryani.jpg"
-      },
-      {
-        "menuItem": "Chicken 65",
-        "price": 289,
-        "menuType": "Starters",
-        "description": "Crispy fried chicken tossed in spicy South Indian masala.",
-        "menuImageUrl": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto/v1675662456/chicken_65.jpg"
-      }
+      { "menuItem": "Special Chicken Biryani", "price": 389, "menuType": "Biryani", "description": "Double meat and double rice version of our classic biryani.", "menuImageUrl": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto/v1675849231/hyderabadi_biryani.jpg" },
+      { "menuItem": "Chicken 65", "price": 289, "menuType": "Starters", "description": "Spicy, deep-fried chicken tempered with curry leaves.", "menuImageUrl": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto/v1675662456/chicken_65.jpg" },
+      { "menuItem": "Tandoori Chicken Full", "price": 549, "menuType": "Starters", "description": "Whole chicken marinated in yogurt and spices, roasted in clay oven.", "menuImageUrl": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto/v1675662456/tandoori.jpg" },
+      { "menuItem": "Double Ka Meetha", "price": 120, "menuType": "Desserts", "description": "Traditional bread pudding garnished with nuts and saffron.", "menuImageUrl": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto/v1675662456/sweet.jpg" }
     ]
   },
-
-  {
-    "restaurantName": "Mehfil Restaurant",
-    "rating": 4.1,
-    "menuTypes": ["Biryani", "Starters", "Curries"],
-    "imageUrl": "https://b.zmtcdn.com/data/pictures/0/19098420/6a7db45a2d34b3d6c1c0b84b92e5a2e0.jpg",
-    "location": "Nampally",
-    "menus": [
-      {
-        "menuItem": "Special Chicken Biryani",
-        "price": 299,
-        "menuType": "Biryani",
-        "description": "Flavor-packed biryani cooked with secret house spices.",
-        "menuImageUrl": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto/v1675662521/chicken_biryani.jpg"
-      }
-    ]
-  },
-
-  {
-    "restaurantName": "Bawarchi",
-    "rating": 4.4,
-    "menuTypes": ["Biryani", "Starters", "Soups"],
-    "imageUrl": "https://b.zmtcdn.com/data/pictures/6/18347056/5c9d3c1a57d6f04c0b6dbcb29b8d3e1a.jpg",
-    "location": "RTC Cross Road",
-    "menus": [
-      {
-        "menuItem": "Mutton Biryani",
-        "price": 449,
-        "menuType": "Biryani",
-        "description": "Succulent mutton pieces cooked with fragrant basmati rice.",
-        "menuImageUrl": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto/v1675662493/mutton_biryani.jpg"
-      }
-    ]
-  },
-
   {
     "restaurantName": "Cream Stone",
     "rating": 4.6,
-    "menuTypes": ["Desserts", "Ice Cream"],
+    "menuTypes": ["Ice Cream", "Shakes", "Desserts"],
     "imageUrl": "https://b.zmtcdn.com/data/pictures/4/18347014/7b44d0a10a9ad5f5cb9d4a4c5a92c3b6.jpg",
     "location": "Kukatpally",
     "menus": [
-      {
-        "menuItem": "Chocolate Fantasy",
-        "price": 179,
-        "menuType": "Desserts",
-        "description": "Rich chocolate ice cream mixed on a frozen stone.",
-        "menuImageUrl": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto/v1675865148/chocolate_fantasy.jpg"
-      }
+      { "menuItem": "Chocolate Fantasy", "price": 179, "menuType": "Ice Cream", "description": "Chocolate ice cream with brownies and fudge on a frozen stone.", "menuImageUrl": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto/v1675865148/chocolate_fantasy.jpg" },
+      { "menuItem": "Fruit Exotica", "price": 199, "menuType": "Ice Cream", "description": "Mixed fruit ice cream with fresh seasonal fruit toppings.", "menuImageUrl": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto/v1675865148/fruit.jpg" },
+      { "menuItem": "Oreo Shot Shake", "price": 210, "menuType": "Shakes", "description": "Thick shake blended with Oreo cookies and chocolate syrup.", "menuImageUrl": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto/v1675865250/shake.jpg" },
+      { "menuItem": "Willy Wonka", "price": 220, "menuType": "Ice Cream", "description": "A magical chocolate treat with chips, gems, and dark fudge.", "menuImageUrl": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto/v1675865148/willy.jpg" }
     ]
   },
-
-  {
-    "restaurantName": "KFC",
-    "rating": 4.0,
-    "menuTypes": ["Fast Food", "Starters"],
-    "imageUrl": "https://logos-world.net/wp-content/uploads/2020/04/KFC-Logo.png",
-    "location": "LB Nagar",
-    "menus": [
-      {
-        "menuItem": "Hot & Crispy Chicken (4 pcs)",
-        "price": 399,
-        "menuType": "Starters",
-        "description": "Signature crispy fried chicken with bold spices.",
-        "menuImageUrl": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto/v1675662415/hot_crispy_chicken.jpg"
-      }
-    ]
-  },
-
   {
     "restaurantName": "Domino's Pizza",
     "rating": 4.2,
-    "menuTypes": ["Pizza", "Sides"],
+    "menuTypes": ["Pizza", "Sides", "Beverages"],
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/7/74/Dominos_pizza_logo.svg",
     "location": "Dilsukhnagar",
     "menus": [
-      {
-        "menuItem": "Farmhouse Pizza",
-        "price": 299,
-        "menuType": "Pizza",
-        "description": "Loaded with fresh veggies and mozzarella cheese.",
-        "menuImageUrl": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto/v1675865154/farmhouse_pizza.jpg"
-      }
+      { "menuItem": "Farmhouse Pizza", "price": 459, "menuType": "Pizza", "description": "Mushroom, corn, capsicum, and tomato with mozzarella.", "menuImageUrl": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto/v1675865154/farmhouse_pizza.jpg" },
+      { "menuItem": "Paneer Tikka Pizza", "price": 499, "menuType": "Pizza", "description": "Spicy paneer tikka cubes with onion and red paprika.", "menuImageUrl": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto/v1675865154/paneer_pizza.jpg" },
+      { "menuItem": "Stuffed Garlic Bread", "price": 149, "menuType": "Sides", "description": "Freshly baked bread with cheese, corn, and jalapeños.", "menuImageUrl": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto/v1675865154/garlic_bread.jpg" },
+      { "menuItem": "Pepsi 500ml", "price": 60, "menuType": "Beverages", "description": "Chilled 500ml carbonated soft drink.", "menuImageUrl": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto/v1675865154/pepsi.jpg" },
+      { "menuItem": "Butterscotch Mousse", "price": 99, "menuType": "Desserts", "description": "Creamy mousse with crunchy butterscotch bits.", "menuImageUrl": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto/v1675865154/mousse.jpg" }
     ]
   },
-
+  {
+    "restaurantName": "Bawarchi",
+    "rating": 4.4,
+    "menuTypes": ["Biryani", "Starters", "Curries"],
+    "imageUrl": "https://b.zmtcdn.com/data/pictures/6/18347056/5c9d3c1a57d6f04c0b6dbcb29b8d3e1a.jpg",
+    "location": "RTC Cross Road",
+    "menus": [
+      { "menuItem": "Mutton Biryani", "price": 480, "menuType": "Biryani", "description": "World-famous Bawarchi mutton biryani served with salan.", "menuImageUrl": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto/v1675662493/mutton_biryani.jpg" },
+      { "menuItem": "Chicken Tikka", "price": 310, "menuType": "Starters", "description": "Spicy boneless chicken chunks roasted in tandoor.", "menuImageUrl": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto/v1675662493/tikka.jpg" },
+      { "menuItem": "Butter Chicken", "price": 340, "menuType": "Curries", "description": "Juicy chicken in a rich, buttery tomato gravy.", "menuImageUrl": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto/v1675662493/butter_chicken.jpg" },
+      { "menuItem": "Garlic Naan", "price": 65, "menuType": "Main Course", "description": "Leavened flatbread topped with minced garlic and butter.", "menuImageUrl": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto/v1675662493/naan.jpg" }
+    ]
+  },
+  {
+    "restaurantName": "KFC",
+    "rating": 4.0,
+    "menuTypes": ["Fast Food", "Burgers", "Buckets"],
+    "imageUrl": "https://logos-world.net/wp-content/uploads/2020/04/KFC-Logo.png",
+    "location": "LB Nagar",
+    "menus": [
+      { "menuItem": "Hot & Crispy Bucket", "price": 699, "menuType": "Buckets", "description": "8 pieces of our signature hot and crispy chicken.", "menuImageUrl": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto/v1675662415/bucket.jpg" },
+      { "menuItem": "Chicken Zinger Burger", "price": 189, "menuType": "Burgers", "description": "Classic spicy chicken fillet burger with mayo.", "menuImageUrl": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto/v1675662415/zinger.jpg" },
+      { "menuItem": "Popcorn Chicken Large", "price": 240, "menuType": "Starters", "description": "Bite-sized pieces of spicy breaded chicken.", "menuImageUrl": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto/v1675662415/popcorn.jpg" },
+      { "menuItem": "Fries Large", "price": 115, "menuType": "Sides", "description": "Golden, salted potato fries.", "menuImageUrl": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto/v1675662415/fries.jpg" },
+      { "menuItem": "Chocolate Mousse Cup", "price": 85, "menuType": "Desserts", "description": "Light and airy chocolate mousse.", "menuImageUrl": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto/v1675662415/mousse.jpg" }
+    ]
+  },
   {
     "restaurantName": "Burger King",
     "rating": 4.1,
-    "menuTypes": ["Burgers", "Fast Food"],
+    "menuTypes": ["Burgers", "Sides", "Shakes"],
     "imageUrl": "https://logos-world.net/wp-content/uploads/2020/04/Burger-King-Logo.png",
     "location": "Malakpet",
     "menus": [
-      {
-        "menuItem": "Whopper Chicken",
-        "price": 199,
-        "menuType": "Burgers",
-        "description": "Flame-grilled chicken patty with fresh veggies.",
-        "menuImageUrl": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto/v1675662448/whopper_chicken.jpg"
-      }
+      { "menuItem": "Veg Whopper", "price": 169, "menuType": "Burgers", "description": "Our classic plant-based flame-grilled patty burger.", "menuImageUrl": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto/v1675662448/veg_whopper.jpg" },
+      { "menuItem": "Crispy Chicken Burger", "price": 129, "menuType": "Burgers", "description": "Fried chicken patty with lettuce and classic mayo.", "menuImageUrl": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto/v1675662448/crispy.jpg" },
+      { "menuItem": "Cheesy Fries", "price": 149, "menuType": "Sides", "description": "Crispy fries topped with melted cheddar cheese sauce.", "menuImageUrl": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto/v1675662448/cheese_fries.jpg" },
+      { "menuItem": "Mango Shake", "price": 159, "menuType": "Shakes", "description": "Creamy mango flavored thick shake.", "menuImageUrl": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto/v1675662448/mango.jpg" }
     ]
   },
-
   {
     "restaurantName": "Subway",
     "rating": 4.3,
-    "menuTypes": ["Healthy", "Sandwiches"],
+    "menuTypes": ["Sandwiches", "Salads", "Cookies"],
     "imageUrl": "https://logos-world.net/wp-content/uploads/2020/09/Subway-Logo.png",
     "location": "Begumpet",
     "menus": [
-      {
-        "menuItem": "Chicken Teriyaki Sub",
-        "price": 259,
-        "menuType": "Sandwiches",
-        "description": "Juicy chicken glazed with teriyaki sauce in freshly baked bread.",
-        "menuImageUrl": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto/v1675865171/chicken_teriyaki.jpg"
-      }
+      { "menuItem": "Chicken Teriyaki Sub", "price": 259, "menuType": "Sandwiches", "description": "Sweet onion teriyaki glazed chicken with fresh veggies.", "menuImageUrl": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto/v1675865171/chicken_teriyaki.jpg" },
+      { "menuItem": "Italian B.M.T.", "price": 289, "menuType": "Sandwiches", "description": "Salami, pepperoni, and ham with your choice of bread.", "menuImageUrl": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto/v1675865171/bmt.jpg" },
+      { "menuItem": "Roasted Chicken Salad", "price": 240, "menuType": "Salads", "description": "All the goodness of a sub without the bread.", "menuImageUrl": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto/v1675865171/salad.jpg" },
+      { "menuItem": "Chocolate Chip Cookie", "price": 65, "menuType": "Cookies", "description": "Freshly baked chewy chocolate chip cookie.", "menuImageUrl": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto/v1675865171/cookie.jpg" }
+    ]
+  },
+  {
+    "restaurantName": "Pista House",
+    "rating": 4.4,
+    "menuTypes": ["Haleem", "Bakery", "Biryani"],
+    "imageUrl": "https://b.zmtcdn.com/data/pictures/chains/6/18343716/09d3c5f2f534e3a47926b47c0b05b364.jpg",
+    "location": "Charminar",
+    "menus": [
+      { "menuItem": "Mutton Haleem", "price": 280, "menuType": "Haleem", "description": "Garnish with fried onions, lemon, and coriander.", "menuImageUrl": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto/v1675662480/haleem.jpg" },
+      { "menuItem": "Osmania Biscuits (Box)", "price": 180, "menuType": "Bakery", "description": "Traditional salty and sweet Hyderabad tea biscuits.", "menuImageUrl": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto/v1675662480/osmania.jpg" },
+      { "menuItem": "Chicken 65 Biryani", "price": 340, "menuType": "Biryani", "description": "Unique biryani served with spicy Chicken 65 pieces.", "menuImageUrl": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto/v1675662480/65biryani.jpg" },
+      { "menuItem": "Dilkhush", "price": 80, "menuType": "Bakery", "description": "Sweet bread stuffed with coconut and dried fruits.", "menuImageUrl": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto/v1675662480/dilkhush.jpg" }
+    ]
+  },
+  {
+    "restaurantName": "Absolute Barbecues",
+    "rating": 4.7,
+    "menuTypes": ["Buffet", "Grill", "Desserts"],
+    "imageUrl": "https://b.zmtcdn.com/data/pictures/chains/4/18343714/8b383187c32b509f61b17a7a7a7a7a7a.jpg",
+    "location": "Gachibowli",
+    "menus": [
+      { "menuItem": "Wish Grill Veg Platter", "price": 599, "menuType": "Grill", "description": "Exotic veggies grilled to order with custom sauces.", "menuImageUrl": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto/v1675865210/veggie_grill.jpg" },
+      { "menuItem": "Crispy Corn", "price": 220, "menuType": "Starters", "description": "Fried corn kernels tossed in salt and pepper.", "menuImageUrl": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto/v1675865210/corn.jpg" },
+      { "menuItem": "Angoori Gulab Jamun", "price": 150, "menuType": "Desserts", "description": "Tiny bite-sized gulab jamuns in sugar syrup.", "menuImageUrl": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto/v1675865210/jamun.jpg" },
+      { "menuItem": "BBQ Chicken Wings", "price": 310, "menuType": "Starters", "description": "Tender wings glazed in smoky BBQ sauce.", "menuImageUrl": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto/v1675865210/wings.jpg" }
+    ]
+  },
+  {
+    "restaurantName": "Starbucks",
+    "rating": 4.5,
+    "menuTypes": ["Coffee", "Frappuccino", "Food"],
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/en/d/d3/Starbucks_Corporation_Logo_2011.svg",
+    "location": "Banjara Hills",
+    "menus": [
+      { "menuItem": "Java Chip Frappuccino", "price": 345, "menuType": "Frappuccino", "description": "Mocha sauce and Frappuccino chips blended with coffee.", "menuImageUrl": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto/v1675865220/javachip.jpg" },
+      { "menuItem": "Caffè Americano", "price": 240, "menuType": "Coffee", "description": "Rich, full-bodied espresso with hot water.", "menuImageUrl": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto/v1675865220/americano.jpg" },
+      { "menuItem": "Butter Croissant", "price": 180, "menuType": "Food", "description": "Flaky and buttery classic French pastry.", "menuImageUrl": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto/v1675865220/croissant.jpg" },
+      { "menuItem": "Cold Brew Black", "price": 290, "menuType": "Coffee", "description": "Slow-steeped for 20 hours for a smooth flavor.", "menuImageUrl": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto/v1675865220/coldbrew.jpg" }
+    ]
+  },
+  {
+    "restaurantName": "Pizza Hut",
+    "rating": 3.9,
+    "menuTypes": ["Pizza", "Pasta", "Sides"],
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/sco/d/d2/Pizza_Hut_logo.svg",
+    "location": "Himayatnagar",
+    "menus": [
+      { "menuItem": "Tandoori Paneer Pizza", "price": 459, "menuType": "Pizza", "description": "Paneer, onion, capsicum with tandoori sauce.", "menuImageUrl": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto/v1675865230/tandoori_pizza.jpg" },
+      { "menuItem": "Chicken Tikka Pizza", "price": 529, "menuType": "Pizza", "description": "Tikka chicken, onion, and mozzarella cheese.", "menuImageUrl": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto/v1675865230/chicken_pizza.jpg" },
+      { "menuItem": "Cheesy Comfort Pasta", "price": 249, "menuType": "Pasta", "description": "Fusilli pasta in a creamy white cheese sauce.", "menuImageUrl": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto/v1675865230/pasta.jpg" },
+      { "menuItem": "Potato Poppers", "price": 110, "menuType": "Sides", "description": "Crispy herb-seasoned potato bites.", "menuImageUrl": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto/v1675865230/poppers.jpg" }
+    ]
+  },
+  {
+    "restaurantName": "Chutneys",
+    "rating": 4.4,
+    "menuTypes": ["South Indian", "Thali", "Starters"],
+    "imageUrl": "https://b.zmtcdn.com/data/pictures/9/18343719/04d3c5f2f534e3a47926b47c0b05b364.jpg",
+    "location": "Jubilee Hills",
+    "menus": [
+      { "menuItem": "Guntur Idli", "price": 145, "menuType": "South Indian", "description": "Ghee-roasted idlis topped with spicy Guntur karam podi.", "menuImageUrl": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto/v1675865240/idli.jpg" },
+      { "menuItem": "70mm Dosa", "price": 210, "menuType": "South Indian", "description": "An extra-long crispy crepe served with four types of chutney.", "menuImageUrl": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto/v1675865240/dosa.jpg" },
+      { "menuItem": "South Indian Thali", "price": 350, "menuType": "Thali", "description": "Complete meal with rice, sambar, rasam, curries, and curd.", "menuImageUrl": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto/v1675865240/thali.jpg" },
+      { "menuItem": "Filter Coffee", "price": 60, "menuType": "Beverages", "description": "Traditional decoction-based milk coffee.", "menuImageUrl": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto/v1675865240/coffee.jpg" }
+    ]
+  },
+  {
+    "restaurantName": "McDonald's",
+    "rating": 4.2,
+    "menuTypes": ["Burgers", "Sides", "Desserts"],
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/3/36/McDonald%27s_Golden_Arches.svg",
+    "location": "Madhapur",
+    "menus": [
+      { "menuItem": "McSpicy Chicken Burger", "price": 185, "menuType": "Burgers", "description": "Spicy chicken patty with lettuce and creamy sauce.", "menuImageUrl": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto/v1675662460/mcspicy.jpg" },
+      { "menuItem": "McAloo Tikki Burger", "price": 65, "menuType": "Burgers", "description": "Balanced potato and peas patty with special spice.", "menuImageUrl": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto/v1675662460/mcaloo.jpg" },
+      { "menuItem": "Medium Fries", "price": 99, "menuType": "Sides", "description": "The world-famous golden crispy fries.", "menuImageUrl": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto/v1675662460/fries.jpg" },
+      { "menuItem": "McFlurry Oreo", "price": 120, "menuType": "Desserts", "description": "Vanilla soft serve with Oreo cookie crumbles.", "menuImageUrl": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto/v1675662460/mcflurry.jpg" },
+      { "menuItem": "Chicken McNuggets (6pc)", "price": 169, "menuType": "Sides", "description": "Tender chicken nuggets with mustard sauce.", "menuImageUrl": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto/v1675662460/nuggets.jpg" }
+    ]
+  },
+  {
+    "restaurantName": "The ThickShake Factory",
+    "rating": 4.3,
+    "menuTypes": ["Shakes", "Beverages"],
+    "imageUrl": "https://b.zmtcdn.com/data/pictures/chains/5/18343725/59d3c5f2f534e3a47926b47c0b05b364.jpg",
+    "location": "Kondapur",
+    "menus": [
+      { "menuItem": "Belgian Chocolate Shake", "price": 219, "menuType": "Shakes", "description": "Creamy shake made with rich Belgian dark chocolate.", "menuImageUrl": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto/v1675865250/belgian.jpg" },
+      { "menuItem": "Nutella Blast Shake", "price": 249, "menuType": "Shakes", "description": "Blended with massive amounts of original Nutella.", "menuImageUrl": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto/v1675865250/nutella.jpg" },
+      { "menuItem": "Strawberry Fantasy", "price": 189, "menuType": "Shakes", "description": "Fresh strawberry puree blended with vanilla ice cream.", "menuImageUrl": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto/v1675865250/strawberry.jpg" },
+      { "menuItem": "Cold Coffee Classic", "price": 160, "menuType": "Beverages", "description": "Classic chilled coffee for the caffeine lovers.", "menuImageUrl": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto/v1675865250/coffee.jpg" }
+    ]
+  },
+  {
+    "restaurantName": "Mandil",
+    "rating": 4.1,
+    "menuTypes": ["Mandi", "Arabian", "Starters"],
+    "imageUrl": "https://b.zmtcdn.com/data/pictures/2/18652392/8d3c5f2f534e3a47926b47c0b05b364.jpg",
+    "location": "Tolichowki",
+    "menus": [
+      { "menuItem": "Juicy Chicken Mandi", "price": 550, "menuType": "Mandi", "description": "Fragrant mandi rice with steamed and grilled chicken.", "menuImageUrl": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto/v1675865260/mandi.jpg" },
+      { "menuItem": "Mutton Fried Mandi", "price": 680, "menuType": "Mandi", "description": "Arabian rice topped with crispy fried mutton chunks.", "menuImageUrl": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto/v1675865260/muttonmandi.jpg" },
+      { "menuItem": "Faham Chicken", "price": 320, "menuType": "Arabian", "description": "Arabian style charcoal-grilled chicken.", "menuImageUrl": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto/v1675865260/faham.jpg" },
+      { "menuItem": "Hummus with Pita", "price": 180, "menuType": "Starters", "description": "Creamy chickpea dip served with soft pita bread.", "menuImageUrl": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto/v1675865260/hummus.jpg" }
+    ]
+  },
+  {
+    "restaurantName": "Shah Ghouse",
+    "rating": 4.3,
+    "menuTypes": ["Biryani", "North Indian", "Desserts"],
+    "imageUrl": "https://b.zmtcdn.com/data/pictures/chains/1/18343721/1d3c5f2f534e3a47926b47c0b05b364.jpg",
+    "location": "Gachibowli",
+    "menus": [
+      { "menuItem": "Special Mutton Biryani", "price": 420, "menuType": "Biryani", "description": "The pride of Hyderabad - authentic spiced mutton biryani.", "menuImageUrl": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto/v1675662490/mutton_biry.jpg" },
+      { "menuItem": "Chicken 65 (Dry)", "price": 290, "menuType": "Starters", "description": "Spicy, tangy deep fried chicken pieces.", "menuImageUrl": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto/v1675662490/65.jpg" },
+      { "menuItem": "Qubani Ka Meetha", "price": 130, "menuType": "Desserts", "description": "Apricot compote served with fresh cream.", "menuImageUrl": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto/v1675662490/qubani.jpg" },
+      { "menuItem": "Rumali Roti", "price": 25, "menuType": "Main Course", "description": "Paper-thin soft bread cooked on a tawa.", "menuImageUrl": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto/v1675662490/rumali.jpg" }
+    ]
+  },
+  {
+    "restaurantName": "Dunkin' Donuts",
+    "rating": 4.0,
+    "menuTypes": ["Desserts", "Coffee", "Burgers"],
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/5/53/Dunkin%27_Donuts_logo.svg/1200px-Dunkin%27_Donuts_logo.svg.png",
+    "location": "Somajiguda",
+    "menus": [
+      { "menuItem": "Classic Glazed Donut", "price": 99, "menuType": "Desserts", "description": "Iconic yeast donut with a sugary glaze.", "menuImageUrl": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto/v1675865280/donut.jpg" },
+      { "menuItem": "Death by Chocolate Donut", "price": 120, "menuType": "Desserts", "description": "Donut dipped in chocolate and topped with chocolate curls.", "menuImageUrl": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto/v1675865280/deathby.jpg" },
+      { "menuItem": "Iced Americano", "price": 210, "menuType": "Coffee", "description": "Bold espresso poured over ice and water.", "menuImageUrl": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto/v1675865280/iced.jpg" },
+      { "menuItem": "Naughty Lucy Burger", "price": 250, "menuType": "Burgers", "description": "Spicy chicken burger with a unique donut bun.", "menuImageUrl": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto/v1675865280/burger.jpg" }
+    ]
+  },
+  {
+    "restaurantName": "Taco Bell",
+    "rating": 4.1,
+    "menuTypes": ["Mexican", "Fast Food", "Sides"],
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/en/b/b3/Taco_Bell_2016.svg",
+    "location": "Hitech City",
+    "menus": [
+      { "menuItem": "7 Layer Burrito", "price": 229, "menuType": "Mexican", "description": "Beans, rice, cheese, and salsa in a warm tortilla.", "menuImageUrl": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto/v1675865290/burrito.jpg" },
+      { "menuItem": "Naked Chicken Taco", "price": 199, "menuType": "Mexican", "description": "A taco shell made entirely of crispy fried chicken.", "menuImageUrl": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto/v1675865290/taco.jpg" },
+      { "menuItem": "Cheesy Nachos", "price": 140, "menuType": "Sides", "description": "Crispy tortilla chips served with warm cheese sauce.", "menuImageUrl": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto/v1675865290/nachos.jpg" },
+      { "menuItem": "Choco Quesadilla", "price": 99, "menuType": "Desserts", "description": "Folded tortilla filled with melted chocolate.", "menuImageUrl": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto/v1675865290/choco.jpg" }
+    ]
+  },
+  {
+    "restaurantName": "Wow! Momo",
+    "rating": 4.0,
+    "menuTypes": ["Momos", "Chinese", "Snacks"],
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/en/6/64/Wow%21_Momo_logo.png",
+    "location": "Uppal",
+    "menus": [
+      { "menuItem": "Chicken Steamed Momos", "price": 169, "menuType": "Momos", "description": "6 pieces of handmade momos with minced chicken.", "menuImageUrl": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto/v1675865310/momos.jpg" },
+      { "menuItem": "Pan Fried Veg Momos", "price": 180, "menuType": "Momos", "description": "Momos tossed in a spicy Schezwan sauce.", "menuImageUrl": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto/v1675865310/panfried.jpg" },
+      { "menuItem": "Chicken Moburg", "price": 120, "menuType": "Snacks", "description": "Two pieces of fried momos inside a burger bun.", "menuImageUrl": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto/v1675865310/moburg.jpg" },
+      { "menuItem": "Chocolate Momo", "price": 99, "menuType": "Desserts", "description": "Momos filled with chocolate and dark cocoa.", "menuImageUrl": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto/v1675865310/chocomomo.jpg" }
+    ]
+  },
+  {
+    "restaurantName": "Natural Ice Cream",
+    "rating": 4.8,
+    "menuTypes": ["Ice Cream", "Desserts"],
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/2/23/Naturals_Ice_Cream_logo.png",
+    "location": "Banjara Hills",
+    "menus": [
+      { "menuItem": "Sitaphal Ice Cream", "price": 120, "menuType": "Ice Cream", "description": "Real custard apple pulp in creamy ice cream.", "menuImageUrl": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto/v1675865320/sitaphal.jpg" },
+      { "menuItem": "Tender Coconut Ice Cream", "price": 120, "menuType": "Ice Cream", "description": "Fresh coconut malai in a milk base.", "menuImageUrl": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto/v1675865320/coconut.jpg" },
+      { "menuItem": "Mango Ice Cream", "price": 120, "menuType": "Ice Cream", "description": "Made with the king of fruits - Alphonso mangoes.", "menuImageUrl": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto/v1675865320/mango.jpg" },
+      { "menuItem": "Roasted Almond Ice Cream", "price": 135, "menuType": "Ice Cream", "description": "Creamy base with crunchy roasted almond bits.", "menuImageUrl": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto/v1675865320/almond.jpg" }
+    ]
+  },
+  {
+    "restaurantName": "Bikanervala",
+    "rating": 4.2,
+    "menuTypes": ["Sweets", "North Indian", "Snacks"],
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/en/b/b2/Bikanervala_Logo.png",
+    "location": "Banjara Hills",
+    "menus": [
+      { "menuItem": "Chole Bhature", "price": 195, "menuType": "North Indian", "description": "Two large puffed bhaturas with spicy chickpeas.", "menuImageUrl": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto/v1675865340/chole.jpg" },
+      { "menuItem": "Paneer Tikka Platter", "price": 310, "menuType": "Starters", "description": "Grilled cottage cheese with mint chutney.", "menuImageUrl": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto/v1675865340/tikka.jpg" },
+      { "menuItem": "Raj Kachori", "price": 130, "menuType": "Snacks", "description": "Crispy kachori stuffed with sprouts and curd.", "menuImageUrl": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto/v1675865340/kachori.jpg" },
+      { "menuItem": "Kaju Katli (250g)", "price": 320, "menuType": "Sweets", "description": "Premium cashew nut fudge sweets.", "menuImageUrl": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto/v1675865340/kaju.jpg" }
+    ]
+  },
+  {
+    "restaurantName": "Chinese Wok",
+    "rating": 3.8,
+    "menuTypes": ["Chinese", "Noodles", "Rice"],
+    "imageUrl": "https://b.zmtcdn.com/data/pictures/chains/2/18652392/8d3c5f2f534e3a47926b47c0b05b364.jpg",
+    "location": "Kothapet",
+    "menus": [
+      { "menuItem": "Hakka Noodles Chicken", "price": 249, "menuType": "Noodles", "description": "Classic stir-fried noodles with veggies and chicken.", "menuImageUrl": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto/v1675865350/noodles.jpg" },
+      { "menuItem": "Schezwan Fried Rice", "price": 220, "menuType": "Rice", "description": "Spicy fried rice with red schezwan chutney.", "menuImageUrl": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto/v1675865350/rice.jpg" },
+      { "menuItem": "Chilly Chicken Dry", "price": 280, "menuType": "Starters", "description": "Crispy chicken tossed with soy and green chilies.", "menuImageUrl": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto/v1675865350/chilly.jpg" },
+      { "menuItem": "Manchow Soup", "price": 145, "menuType": "Soups", "description": "Spicy soup served with crispy fried noodles.", "menuImageUrl": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto/v1675865350/soup.jpg" }
+    ]
+  },
+  {
+    "restaurantName": "Kritunga Restaurant",
+    "rating": 4.0,
+    "menuTypes": ["Rayalaseema", "Biryani", "Curries"],
+    "imageUrl": "https://b.zmtcdn.com/data/pictures/chains/8/18343738/2d3c5f2f534e3a47926b47c0b05b364.jpg",
+    "location": "Dilshuknagar",
+    "menus": [
+      { "menuItem": "Ragi Sankati", "price": 180, "menuType": "Rayalaseema", "description": "Traditional finger millet balls, a healthy staple.", "menuImageUrl": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto/v1675865370/ragi.jpg" },
+      { "menuItem": "Natu Kodi Pulusu", "price": 350, "menuType": "Curries", "description": "Spicy country chicken curry with Rayalaseema heat.", "menuImageUrl": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto/v1675865370/kodi.jpg" },
+      { "menuItem": "Kritunga Special Biryani", "price": 380, "menuType": "Biryani", "description": "Spicy Rayalaseema style biryani cooked with Guntur chilies.", "menuImageUrl": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto/v1675865370/biryani.jpg" },
+      { "menuItem": "Ulava Charu Biryani", "price": 399, "menuType": "Biryani", "description": "Biryani mixed with horse gram soup for a tangy taste.", "menuImageUrl": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto/v1675865370/ulava.jpg" }
+    ]
+  },
+  {
+    "restaurantName": "Haldiram's",
+    "rating": 4.4,
+    "menuTypes": ["Chat", "Sweets", "Thali"],
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/f/f6/Haldiram%27s_logo.svg/1200px-Haldiram%27s_logo.svg.png",
+    "location": "Attapur",
+    "menus": [
+      { "menuItem": "Pani Puri (8pc)", "price": 90, "menuType": "Chat", "description": "Crispy puris with spicy and tangy water.", "menuImageUrl": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto/v1675865380/panipuri.jpg" },
+      { "menuItem": "Pav Bhaji", "price": 180, "menuType": "North Indian", "description": "Spiced vegetable mash with buttered bread.", "menuImageUrl": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto/v1675865380/pavbhaji.jpg" },
+      { "menuItem": "Kesar Rasbhari", "price": 140, "menuType": "Sweets", "description": "Saffron flavored mini rasgullas.", "menuImageUrl": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto/v1675865380/rasbhari.jpg" },
+      { "menuItem": "Special Executive Thali", "price": 399, "menuType": "Thali", "description": "Deluxe vegetarian meal with paneer, dal, and roti.", "menuImageUrl": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto/v1675865380/thali.jpg" }
+    ]
+  },
+  {
+    "restaurantName": "Great Indian Khichdi",
+    "rating": 4.5,
+    "menuTypes": ["Khichdi", "Sides"],
+    "imageUrl": "https://b.zmtcdn.com/data/pictures/chains/4/19543884/8f3c5f2f534e3a47926b47c0b05b364.jpg",
+    "location": "Jubilee Hills",
+    "menus": [
+      { "menuItem": "Amritsari Dal Khichdi", "price": 249, "menuType": "Khichdi", "description": "Loaded with ghee and authentic Amritsari spices.", "menuImageUrl": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto/v1675865390/khichdi.jpg" },
+      { "menuItem": "Achari Khichdi", "price": 259, "menuType": "Khichdi", "description": "Spicy khichdi with the tanginess of mango pickle.", "menuImageUrl": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto/v1675865390/achari.jpg" },
+      { "menuItem": "Masala Buttermilk", "price": 80, "menuType": "Beverages", "description": "Chilled yogurt drink with ginger and chili.", "menuImageUrl": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto/v1675865390/buttermilk.jpg" },
+      { "menuItem": "Aloo Tuk", "price": 140, "menuType": "Sides", "description": "Deep fried crispy potatoes with Sindhi spices.", "menuImageUrl": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto/v1675865390/alootuk.jpg" }
+    ]
+  },
+  {
+    "restaurantName": "Faasos",
+    "rating": 4.1,
+    "menuTypes": ["Wraps", "Bowls", "Sides"],
+    "imageUrl": "https://b.zmtcdn.com/data/pictures/chains/5/18343725/59d3c5f2f534e3a47926b47c0b05b364.jpg",
+    "location": "Banjara Hills",
+    "menus": [
+      { "menuItem": "Signature Chicken Wrap", "price": 210, "menuType": "Wraps", "description": "Classic chicken tikka wrapped in a thin paratha.", "menuImageUrl": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto/v1675865400/wrap.jpg" },
+      { "menuItem": "Cheesy Corn Wrap", "price": 180, "menuType": "Wraps", "description": "Sweet corn and melting cheese with mayo.", "menuImageUrl": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto/v1675865400/cornwrap.jpg" },
+      { "menuItem": "Meatballs Rice Bowl", "price": 249, "menuType": "Bowls", "description": "Juicy chicken meatballs served on a bed of rice.", "menuImageUrl": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto/v1675865400/bowl.jpg" },
+      { "menuItem": "Sweet Potato Fries", "price": 110, "menuType": "Sides", "description": "Crispy sweet potato wedges with seasoning.", "menuImageUrl": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto/v1675865400/fries.jpg" }
+    ]
+  },
+  {
+    "restaurantName": "Biryani By Kilo",
+    "rating": 4.4,
+    "menuTypes": ["Biryani", "Kebab", "Curries"],
+    "imageUrl": "https://b.zmtcdn.com/data/pictures/chains/4/18343714/8b383187c32b509f61b17a7a7a7a7a7a.jpg",
+    "location": "Kukatpally",
+    "menus": [
+      { "menuItem": "Hyderabadi Mutton Biryani (1kg)", "price": 899, "menuType": "Biryani", "description": "Authentic mutton biryani delivered in a handi.", "menuImageUrl": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto/v1675865410/mutton.jpg" },
+      { "menuItem": "Galouti Kebab", "price": 380, "menuType": "Kebab", "description": "Melt-in-mouth minced mutton kebabs.", "menuImageUrl": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto/v1675865410/galouti.jpg" },
+      { "menuItem": "Phirni", "price": 120, "menuType": "Desserts", "description": "Ground rice pudding in an earthen pot.", "menuImageUrl": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto/v1675865410/phirni.jpg" },
+      { "menuItem": "Chicken Ghee Roast", "price": 340, "menuType": "Curries", "description": "Spicy chicken cooked in pure desi ghee.", "menuImageUrl": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto/v1675865410/gheeroast.jpg" }
+    ]
+  },
+  {
+    "restaurantName": "EatFit",
+    "rating": 4.3,
+    "menuTypes": ["Healthy", "Salads", "Juices"],
+    "imageUrl": "https://b.zmtcdn.com/data/pictures/chains/2/18652392/8d3c5f2f534e3a47926b47c0b05b364.jpg",
+    "location": "Hitech City",
+    "menus": [
+      { "menuItem": "Grilled Chicken Salad", "price": 280, "menuType": "Healthy", "description": "Fresh greens with lemon herb grilled chicken.", "menuImageUrl": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto/v1675865420/salad.jpg" },
+      { "menuItem": "Brown Rice Biryani", "price": 299, "menuType": "Healthy", "description": "Guilt-free chicken biryani with brown rice.", "menuImageUrl": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto/v1675865420/brown.jpg" },
+      { "menuItem": "Watermelon Juice", "price": 110, "menuType": "Juices", "description": "Freshly pressed watermelon with no added sugar.", "menuImageUrl": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto/v1675865420/juice.jpg" },
+      { "menuItem": "Oats Upma", "price": 145, "menuType": "Healthy", "description": "Savory oats with mixed vegetables and nuts.", "menuImageUrl": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto/v1675865420/oats.jpg" }
     ]
   }
 ]
