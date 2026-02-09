@@ -6,6 +6,8 @@ import { Restaurant } from 'src/app/model/Restaurant';
   styleUrls: ['./restaurant.component.scss']
 })
 export class RestaurantComponent {
-    @Input()
-    restaurant?: Restaurant;
+  @Input()
+restaurant?: Restaurant;
+
+
 }
