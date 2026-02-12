@@ -22,7 +22,7 @@ public class UserServiceIMpl implements UserService {
     public String signUp(SignUpRequestDTO signUpRequestDTO) {
 
         List<RoleEntity> roles = new ArrayList<>();
-        roles.add(new RoleEntity("Admin"));
+        roles.add(new RoleEntity("User"));
 
         UserEntity userEntity = UserEntity.builder()
                 .username(signUpRequestDTO.getUsername())
