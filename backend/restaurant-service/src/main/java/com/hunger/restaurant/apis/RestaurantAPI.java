@@ -8,6 +8,7 @@ import com.hunger.restaurant.Services.IRestaurantService;
 import com.hunger.restaurant.dtoes.RestaurantDTO;
 import com.hunger.restaurant.entities.RestaurantEntity;
 import lombok.RequiredArgsConstructor;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.core.io.Resource;
 import org.springframework.core.io.ResourceLoader;
 import org.springframework.data.domain.Page;
@@ -25,7 +26,7 @@ import java.util.List;
 @CrossOrigin(origins = "http://localhost:4200")
 public class RestaurantAPI {
 
-  private final ObjectMapper objectMapper;
+
   private final IRestaurantService restaurantService;
 
   @GetMapping("/{pageNumber}/{pageSize}")
