@@ -60,4 +60,10 @@ public class RestaurantAPI {
      return "record Inserted";
 
   }*/
+ @GetMapping("/{restaurantId}")
+ public RestaurantDTO getRestaurantById(@PathVariable("restaurantId") Integer restaurantId) throws Exception {
+     return this.restaurantService.getRestaurantById(restaurantId);
+ }
+
+
 }

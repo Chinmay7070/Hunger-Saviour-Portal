@@ -2,6 +2,9 @@ package com.hunger.savier.portal.services;
 
 import com.hunger.savier.portal.dtoes.RsakeyConfigurationPropertiies;
 import com.hunger.savier.portal.reposetories.UserRepo;
+import com.nimbusds.jose.JWSVerifier;
+import com.nimbusds.jose.crypto.RSASSAVerifier;
+import com.nimbusds.jwt.SignedJWT;
 import lombok.RequiredArgsConstructor;
 import org.springframework.security.core.Authentication;
 import org.springframework.security.core.GrantedAuthority;
@@ -38,5 +41,10 @@ public class TokenService {
                 .claim("scope",scope)
                 .build();
         return jwtEncoder.encode(JwtEncoderParameters.from(claims)).getTokenValue();
+    }
+    public boolean ValidateToken(String token) throws Exception{
+        SignedJWT  signedJWT = SignedJWT.parse(token);
+        JWSVerifier verifier = new RSASSAVerifier(rsakeyConfigurationPropertiies.publicKey());
+        return signedJWT.verify(verifier);
     }
 }

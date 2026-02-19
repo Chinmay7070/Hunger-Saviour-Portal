@@ -32,4 +32,12 @@ public class IRestaurantServiceIMPL implements IRestaurantService {
        List<RestaurantEntity> restaurantEntities = restaurantRepo.findAll();
        return  restaurantEntities.stream().map(RestaurantMapper.INSTANCE::entityToDTO).collect(Collectors.toList());
     }
+
+    @Override
+    public RestaurantDTO getRestaurantById(Integer restaurantId) throws Exception {
+     RestaurantEntity restaurantEntity = restaurantRepo.findById(restaurantId).
+             orElseThrow(() -> new Exception("Restaurnat not found with id "+restaurantId));
+     return RestaurantMapper.INSTANCE.entityToDTO(restaurantEntity);
+
+    }
 }

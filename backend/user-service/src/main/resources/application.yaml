@@ -1,12 +1,15 @@
 server:
-  port: 8081
+  port: 8082
+
 spring:
   application:
     name: user-service
+
   datasource:
     url: jdbc:mysql://localhost:3306/user-b2b?createDatabaseIfNotExist=true
     username: root
     password: Chinmay@1234
+
   jpa:
     show-sql: true
     hibernate:
@@ -15,3 +18,10 @@ spring:
 rsa:
   public-key: classpath:certs/public.pem
   private-key: classpath:certs/private.pem
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka/
+    register-with-eureka: true
+    fetch-registry: true
