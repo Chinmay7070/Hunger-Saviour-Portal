@@ -1,0 +1,9 @@
+<p>restaurant-menu works!</p>
+
+<ng-container *ngIf="rest$ | async as restaurant">
+    <div *ngIf="restaurant.menus">
+           <div *ngFor="let menu of restaurant.menus">
+            <p>{{menu.menuItem}}</p>
+           </div>
+    </div>
+</ng-container>

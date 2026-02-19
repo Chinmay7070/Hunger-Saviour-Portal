@@ -1,3 +1,5 @@
+import { RestaurantMenu } from "./RestauratMenu";
+
 export interface Restaurant{
     restaurantId: number;
     restaurantName: String;
@@ -5,4 +7,5 @@ export interface Restaurant{
     menuTypes: string[];
     imageUrl: string;
     location: string;
+    menus?:  RestaurantMenu[];
 }

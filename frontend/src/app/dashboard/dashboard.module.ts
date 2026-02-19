@@ -7,13 +7,15 @@ import { SharedmoduleModule } from '../sharedmodule/sharedmodule.module';
 import { RestaurantListComponent } from './restaurant-list/restaurant-list.component';
 import { RestaurantComponent } from './restaurant/restaurant.component';
 import { HttpClientModule } from '@angular/common/http';
+import { RestaurentMenuComponent } from './restaurant/restaurent-menu/restaurent-menu.component';
 
 
 @NgModule({
   declarations: [
     DashboardComponent,
     RestaurantListComponent,
-    RestaurantComponent
+    RestaurantComponent,
+    RestaurentMenuComponent
   ],
   imports: [
     CommonModule,
