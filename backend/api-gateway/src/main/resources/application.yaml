@@ -20,3 +20,17 @@ spring:
           filters:
             - name: AuthenticationFilter
 
+        - id: order-service
+          uri: lb://order-service
+          predicates:
+            - Path=/orders/**
+          filters:
+            - name: AuthenticationFilter
+
+        - id: payment-service
+          uri: lb://payment-service
+          predicates:
+            - Path=/payments/**
+          filters:
+            - name: AuthenticationFilter
+
