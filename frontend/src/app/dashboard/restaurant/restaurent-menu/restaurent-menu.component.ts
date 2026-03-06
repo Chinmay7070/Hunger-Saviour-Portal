@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-import { Observable } from 'rxjs';
+import { ActivatedRoute } from '@angular/router';
+import { map, Observable } from 'rxjs';
 import { Restaurant } from 'src/app/model/Restaurant';
 
 @Component({
@@ -10,10 +11,12 @@ import { Restaurant } from 'src/app/model/Restaurant';
 export class RestaurentMenuComponent implements OnInit {
     rest$?: Observable<Restaurant | null>;
 
-    constructor(){
+    constructor(private route: ActivatedRoute){
 
-    }
-    ngOnInit(): void {
-        
-    }
+    } 
+   ngOnInit(): void {
+  this.rest$ = this.route.data.pipe(
+    map(data => data['rest'])
+  );
+}
 }
